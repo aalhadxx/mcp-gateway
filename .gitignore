@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Build output
+dist/
+
+# Logs
+*.log
+gateway.out
+gateway.err
+test-client.err
+
+# Node modules
+node_modules/
+
+# Test artifacts
+output*.log
+error*.log
+pid*.txt
+pid2.txt
+pid3.txt

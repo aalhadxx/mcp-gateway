@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "zernio": {
+      "url": "https://mcp.zernio.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ZERNIO_API_KEY}"
+      }
+    },
+    "example-filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:/coding/temp"]
+    }
+  }
+}
