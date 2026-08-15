@@ -6,6 +6,9 @@
         "Authorization": "Bearer ${ZERNIO_API_KEY}"
       }
     },
+    "mangools": {
+      "url": "https://mcp.mangools.com/mcp"
+    },
     "example-filesystem": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:/coding/temp"]
