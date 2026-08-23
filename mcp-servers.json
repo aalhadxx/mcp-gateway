@@ -9,6 +9,19 @@
     "mangools": {
       "url": "https://mcp.mangools.com/mcp"
     },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=mehlwnutilgahcdstetp&features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching",
+      "headers": {
+        "Authorization": "Bearer ${SUPABASE_MCP_TOKEN}"
+      }
+    },
+    "elevenlabs": {
+      "command": "uvx",
+      "args": ["elevenlabs-mcp"],
+      "env": {
+        "ELEVENLABS_API_KEY": "${ELEVENLABS_API_KEY}"
+      }
+    },
     "example-filesystem": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:/coding/temp"]
