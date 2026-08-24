@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Local MCP gateway — aggregate multiple MCP servers from a single config file with hot-reload.",
   "type": "module",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
